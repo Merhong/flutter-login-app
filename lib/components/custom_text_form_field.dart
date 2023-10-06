@@ -32,6 +32,8 @@ class CustomTextFormField extends StatelessWidget {
           obscureText: isPassword, // 비밀번호를 넣어줄때만 true
           // obscureText: true, // html의 input태그의 password처럼 가려줌
           decoration: InputDecoration(
+            prefixIcon: Icon(Icons.account_box),
+            suffixIcon: Icon(Icons.check),
             hintText: "Enter ${text}",
             enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(20),
