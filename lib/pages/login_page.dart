@@ -15,7 +15,7 @@ class LoginPage extends StatelessWidget {
         children: [
           SizedBox(height: xlarge_gap),
           Logo("Login"),
-          // HTML의 foㅁㄴrm태그와 동일함 button의 모두 submit할때 사용
+          // HTML의 form태그와 동일함 button의 모두 submit할때 사용
           CustomForm(),
         ],
       ),
